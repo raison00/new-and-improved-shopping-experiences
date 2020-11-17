@@ -1,0 +1,112 @@
+<style>
+
+div.check-img-wrapper{
+  float: left;
+}
+
+ul.account-favorites li:nth-of-type(2) p{
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (max-width: 599px){
+  div.img-wrapper{
+    width: 50%;
+    float: left;
+  }
+
+  div.caption{
+    float: left;
+    width: 50%;
+    padding-top: 9vw;
+  }
+
+  img.check{
+    vertical-align: text-bottom;
+    margin-right: 3vw;
+  }
+
+  ul.account-favorites p, ul.account-preferred p {
+      display: inherit;
+      text-align: left;
+  }
+}
+</style>
+
+<div class="row whats-new-banner-four-container">
+    <div class="large-6 small-12 columns create-an-account-text">
+      <div class="content-wrapper">
+        <h3 class="whats-new-thin">Let us know what<br><span class="whats-new-bold"> you love!</span></h3>
+
+        <p class="sign-in">Just sign into your Macy's account & update your preferences for a more personalized shopping experience.</p>
+
+        <p>Don't have an account?</p>
+
+        <a href="https://www.macys.com/account/signin" data-cm="personalizedpreferences_createanaccount"><button class="small">Create an account</button></a>
+      </div>
+    </div>
+
+    <div class="large-6 small-12 columns account-favorites">
+      <ul class="account-favorites">
+        <li>
+          <div class="img-wrapper">
+            <img class="icon mixer" src="{{IMAGES_HOST}}new_mixer.png">
+          </div>
+
+          <div class="caption">
+            <div class="check-img-wrapper">
+              <img class="check" src="{{IMAGES_HOST}}check_smart_object.png">
+            </div>
+
+            <p class="whats-new-bold">Favorite<br class="wn-mobile-only"> Brands</p>
+          </div>
+        </li>
+        <li>
+          <div class="img-wrapper">
+            <img class="icon dress" src="{{IMAGES_HOST}}favorite_categories_dress.png">
+          </div>
+
+          <div class="caption">
+            <div class="check-img-wrapper">
+              <img class="check" src="{{IMAGES_HOST}}check_smart_object.png">
+            </div>
+
+            <p class="whats-new-bold">Favorite<br class="wn-mobile-only"> Categories</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="large-6 small-12 columns account-preferred">
+      <ul class="account-preferred">
+        <li>
+          <div class="img-wrapper">
+            <img class="icon macys-store" src="{{IMAGES_HOST}}preferred_store.png">
+          </div>
+
+          <div class="caption">
+            <div class="check-img-wrapper">
+              <img class="check" src="{{IMAGES_HOST}}check_smart_object.png">
+            </div>
+
+            <p class="whats-new-bold">Preferred<br class="wn-mobile-only"> Store</p>
+          </div>
+        </li>
+        <li>
+          <div class="img-wrapper">
+            <img class="icon shoe" src="{{IMAGES_HOST}}preferred_sizes_shoe.png">
+          </div>
+
+          <div class="caption">
+            <div class="check-img-wrapper">
+              <img class="check" src="{{IMAGES_HOST}}check_smart_object.png">
+            </div>
+
+            <p class="whats-new-bold">Preferred<br class="wn-mobile-only"> Sizes</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>

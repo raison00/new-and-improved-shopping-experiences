@@ -1,0 +1,20 @@
+{{! Load CSS First }}
+<link href="{{version}}/common.css" rel="stylesheet">
+
+<div class="whats-new-container">
+  {{> whats-new-banner-hero }}
+
+  {{> whats-new-banner-one }}
+
+  {{> whats-new-banner-two }}
+
+  {{> whats-new-banner-three }}
+
+  {{> whats-new-banner-four }}
+
+  {{> whats-new-banner-five }}
+</div>
+
+{{! Load  JS Last so DOM is already present }}
+<script src="{{version}}/js/new-and-improved-shopping-experiences.manifest.js"></script>
+<script src="{{version}}/js/new-and-improved-shopping-experiences.app.js"></script>

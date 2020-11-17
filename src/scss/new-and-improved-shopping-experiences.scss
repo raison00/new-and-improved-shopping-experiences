@@ -1,0 +1,730 @@
+/* Neue Helvetica W01 45 Light (22.01kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-45Ligh";
+src:url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+/* Neue Helvetica W01 65 Medium (22.37kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-65Medi";
+src:url("//assets.macysassets.com/dyn_img/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg");
+}
+
+/* Neue Helvetica W01 75 Bold (22.35kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-75Bold";
+src:url("//assets.macysassets.com/dyn_img/fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
+}
+
+
+.whats-new-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.whats-new-container a{
+  text-decoration: none;
+}
+
+.whats-new-banner-hero-container{
+  background-image: url("https://assets.macysassets.com/dyn_img/creativepages/0506_whatsnew_titlebannerbg_1524679206061.jpg");
+  background-repeat: no-repeat;
+}
+
+.whats-new-banner-one-container{
+  background-image: url("https://assets.macysassets.com/dyn_img/creativepages/0508_whatsnew_greygradientbg_1524698823972.jpg");
+}
+
+.whats-new-container p{
+  font-size: 15px;
+  line-height: 15px;
+  width: 100%;
+}
+
+.whats-new-container h3{
+  font-family: "HelveticaNeueW01-65Medi";
+  text-transform: uppercase;
+  font-size: 2.3em;
+  line-height: 1.1em;
+  margin-bottom: 2%;
+}
+
+.wn-mobile-only{
+  display: none;
+}
+.whats-new-container h2{
+  font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 3%;
+  margin-bottom: 0.5%;
+}
+
+.whats-new-banner-hero-container hr{
+  border: 1px solid #fff;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.whats-new-banner-hero-container p{
+  text-align: center;
+  color: #fff;
+  margin-top: 1.5%;
+  margin-bottom: 6%;
+}
+
+img.whats-new-header{
+  margin: 9% 0 0 13%;
+}
+ul.reasons-to-sign-up{
+  list-style: none;
+  margin: 11% 0 0 14%;
+}
+
+ul.reasons-to-sign-up li{
+  display: inline-block;
+  margin-right: 7%;
+  text-align: center;
+}
+
+.whats-new-banner-one-container p.reasons-to-pay{
+  margin: 12.5% 0 0 12%;
+}
+
+ul.reasons-to-sign-up img{
+  margin-bottom: 16%;
+}
+
+.whats-new-banner-one-container button.find-out-more {
+  display: block;
+  margin-top: 4%;
+  margin-left: 34%;
+  margin-bottom: 23%;
+}
+
+button.find-out-more{
+  margin: 12% 0 13% 17%;
+}
+
+.whats-new-banner-two-container div.content-wrapper{
+  margin: 22% 0 0 22%;
+}
+
+.whats-new-banner-two-container p{
+  margin-bottom: 9%;
+}
+
+.whats-new-banner-two-container img{
+  margin: 20% 0 19% 20%;
+}
+
+.whats-new-banner-three-container{
+  background-color: #f7f7f7;
+}
+
+.whats-new-banner-three-container img{
+  height: 422px;
+  width: auto;
+  margin: 10% 0 10% 36%;
+}
+
+.whats-new-banner-three-container .content-wrapper{
+  margin: 25% 0 0 0;
+  width: 68%;
+}
+
+.whats-new-banner-three-container p{
+  margin-bottom: 11%;
+}
+
+.whats-new-banner-three-container button{
+  width: 168px;
+  height: 40px;
+}
+
+.whats-new-banner-three-container button.check-it-out{
+  display: block;
+  margin-bottom: 2%;
+  padding: 0;
+}
+
+.whats-new-banner-three-container button.download-now{
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
+  padding: 0;
+}
+
+.whats-new-banner-four-container{
+  margin-top: 4%;
+  background-color: #f7f7f7;
+}
+.whats-new-banner-four-container .content-wrapper{
+  margin: 48% 0 0 21%;
+  width: 66%;
+}
+
+h3.whats-new-thin{
+  font-family: "HelveticaNeueW01-45Ligh";
+  font-weight: 100;
+}
+
+h3 span.whats-new-bold{
+  font-family:"HelveticaNeueW01-75Bold";
+}
+
+.whats-new-banner-four-container p:nth-of-type(2){
+  margin-bottom: 10%;
+}
+
+ul.account-favorites, ul.account-preferred{
+  list-style: none;
+}
+
+ul.account-favorites li, ul.account-preferred li{
+  display: inline-block;
+}
+
+.whats-new-banner-four-container img.icon{
+  display: block;
+}
+
+ul.account-favorites, ul.account-preferred {
+    list-style: none;
+    text-align: center;
+}
+
+ul.account-favorites li, ul.account-preferred li {
+    display: inline-block;
+    margin: 0 6%;
+}
+
+ul.account-favorites{
+  margin-top: 22%;
+}
+
+ul.account-preferred{
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+
+ul.account-favorites p, ul.account-preferred p{
+  display: inline;
+  margin-left: -31px;
+}
+
+.whats-new-banner-four-container img.icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 23%;
+}
+
+ul.account-preferred img.shoe{
+  width: 170px;
+}
+
+.whats-new-banner-five-container .content-wrapper{
+  margin: 29% 0 0 22%;
+}
+
+.whats-new-banner-five-container p{
+    margin-bottom: 1%;
+}
+
+.whats-new-banner-five-container span.exclusions{
+  font-size: 12px;
+  margin-bottom: 11%;
+  display: block;
+}
+
+.whats-new-banner-five-container img{
+  margin: 16.3% 0 24% 14%;
+}
+
+@media only screen and (max-width: 1023px){
+  .whats-new-container{
+    width:100%;
+  }
+
+  .whats-new-container h2 {
+      font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+      font-weight: 500;
+      font-size: 6.5vw;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 5%;
+      margin-bottom: 1%;
+  }
+
+  .whats-new-banner-hero-container hr {
+      border: 1px solid #fff;
+      width: 62vw;
+      margin: 0 auto;
+  }
+
+  .whats-new-container p {
+      font-size: 2vw;
+      line-height: 3vw;
+      width: 100%;
+  }
+
+  .whats-new-banner-hero-container {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/0506_whatsnew_titlebannerbg_1524679206061.jpg);
+      background-repeat: no-repeat;
+      background-position: 10% 0;
+      background-size: 167%;
+  }
+
+  .whats-new-banner-hero-container p {
+    text-align: center;
+    color: #fff;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+  }
+
+  img.whats-new-header {
+      margin: 0 auto;
+      display: block;
+      margin-top: 8%;
+      width: 67vw;
+  }
+
+  .whats-new-banner-one-container p.reasons-to-pay {
+      margin: 0;
+      text-align: center;
+      margin-top: 7%;
+  }
+
+  ul.reasons-to-sign-up {
+      list-style: none;
+      margin: 7% 0 0 20%;
+  }
+
+  ul.reasons-to-sign-up li {
+    display: inline-block;
+    margin-right: 9%;
+    text-align: center;
+  }
+
+  ul.reasons-to-sign-up img {
+      margin-bottom: 16%;
+      width: 40px;
+  }
+
+  ul.reasons-to-sign-up img.star{
+      width: 52px;
+  }
+
+  .whats-new-banner-one-container {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/0508_whatsnew_greygradientbg_1524698823972.jpg);
+      background-size: 305%;
+      height: 112vw;
+  }
+
+.whats-new-banner-one-container button.find-out-more {
+    margin: 0 auto;
+    display: block;
+    margin-top: 3%;
+  }
+
+  .whats-new-banner-two-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .whats-new-banner-two-container .small-order-2{
+    order:1;
+  }
+
+  .whats-new-banner-two-container img {
+    margin: 0 auto;
+    display: block;
+    width: 40vw;
+    margin-top: 11%;
+  }
+
+  .whats-new-banner-two-container div.content-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6%;
+    width: 67vw;
+    margin-bottom: 7%;
+  }
+
+  .whats-new-container h3 {
+
+    text-transform: uppercase;
+    font-size: 5.5vw;
+    line-height: 6vw;
+  }
+
+  .whats-new-banner-three-container img {
+      height: auto;
+      width: 29vw;
+      margin: 0 auto;
+      display: block;
+      margin-top: 9%;
+  }
+
+  .whats-new-banner-three-container .content-wrapper {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      margin-top: 5%;
+  }
+
+  .whats-new-banner-three-container h3 {
+    margin: 0 auto;
+    width: 62vw;
+    margin-bottom: 1vw;
+  }
+
+  .whats-new-banner-three-container p {
+      margin-bottom: 10%;
+  }
+
+  .whats-new-banner-three-container button.check-it-out {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 2%;
+  }
+
+  .whats-new-banner-three-container button.download-now {
+      background-color: #fff;
+      border: 1px solid black;
+      color: #000;
+      padding: 0;
+      margin-bottom: 10%;
+  }
+
+  .whats-new-banner-four-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.create-an-account-text{
+    order: 2;
+  }
+
+  div.account-favorites{
+    order: 0;
+  }
+
+  div.account-preferred{
+    order: 1;
+  }
+
+  ul.account-favorites{
+    margin-top: 17%;
+  }
+
+  ul.account-preferred{
+    margin-top: 4%;
+  }
+
+  ul.account-favorites img.mixer{
+    width: 150px;
+  }
+
+  ul.account-favorites img.dress{
+    width: 78px;
+    margin: 0 auto;
+    margin-bottom: 23%;
+  }
+
+  ul.account-preferred img.macys-store, ul.account-preferred img.shoe{
+    width: 135px;
+  }
+
+  .whats-new-banner-four-container img.icon {
+      display: block;
+      margin-bottom: 23%;
+  }
+
+  .whats-new-banner-four-container .content-wrapper {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      margin-top: 4%;
+      margin-bottom: 7%;
+  }
+
+  .create-an-account-text p.sign-in{
+      padding: 0 23vw;
+  }
+
+  .whats-new-banner-four-container p:nth-of-type(2) {
+      margin-bottom: 6%;
+  }
+
+  .whats-new-banner-five-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .whats-new-banner-five-container div.pick-up-in-store{
+    order: 1;
+  }
+
+  .whats-new-banner-five-container img {
+    margin: 0 auto;
+    display: block;
+    margin-top: 17%;
+    width: 275px;
+  }
+
+  .whats-new-banner-five-container .content-wrapper {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      margin-top: 8%;
+  }
+
+  .whats-new-banner-five-container h3 {
+    padding: 0 15vw;
+  }
+
+  .whats-new-banner-five-container span.exclusions {
+      font-size: 12px;
+      margin-bottom: 6%;
+      display: block;
+  }
+
+  .whats-new-banner-five-container h3 {
+      margin-bottom: 2%;
+      padding: 0 15vw;
+  }
+
+  .whats-new-banner-five-container p {
+      padding: 0 12vw;
+      margin-bottom: 2%;
+  }
+
+  ul.account-favorites p, ul.account-preferred p {
+      display: inline;
+      margin-left: 9px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .wn-mobile-only{
+    display: block;
+  }
+
+  .whats-new-container button{
+    width: 95vw;
+    height: 14vw;
+    font-size: 4vw;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .whats-new-banner-one-container {
+    background-image: url(https://assets.macysassets.com/dyn_img/creativepages/0508_whatsnew_greygradientbg_1524698823972.jpg);
+    background-size: 364%;
+    height: 142vw;
+  }
+
+  ul.reasons-to-sign-up li.first{
+    margin-left: 5%;
+  }
+
+  button.find-out-more {
+      margin: 0 auto;
+      display: block;
+      margin-top: 7%;
+  }
+
+  .whats-new-container h2 {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 6.5vw;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+
+  .whats-new-container p {
+    font-size: 5vw;
+    line-height: 6vw;
+    width: 100%;
+  }
+
+  .whats-new-banner-hero-container {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/0506_whatsnew_titlebannerbg_1524679206061.jpg);
+      background-repeat: no-repeat;
+      background-position: 17% 0;
+      background-size: 272%;
+  }
+
+  .whats-new-banner-hero-container p {
+    text-align: center;
+    color: #fff;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    font-size: 4vw;
+  }
+
+  img.whats-new-header {
+    margin: 0 auto;
+    display: block;
+    margin-top: 11%;
+    width: 67vw;
+  }
+
+  .whats-new-banner-one-container p.reasons-to-pay {
+      margin: 0;
+      text-align: center;
+      margin-top: 9%;
+      padding: 0 8vw;
+  }
+
+  ul.reasons-to-sign-up {
+    list-style: none;
+    margin: 0;
+    margin-top: 6%;
+    text-align: center;
+  }
+
+  ul.reasons-to-sign-up li {
+    display: inline-block;
+    margin-right: 3%;
+    text-align: center;
+  }
+
+  ul.reasons-to-sign-up img {
+      margin-bottom: 2%;
+      width: 40px;
+  }
+
+  ul.reasons-to-sign-up p.whats-new-bold{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+
+  .whats-new-banner-two-container img {
+      margin: 0 auto;
+      display: block;
+      width: 73vw;
+      margin-top: 16%;
+  }
+
+  .whats-new-banner-two-container div.content-wrapper {
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 10%;
+      width: 100%;
+      margin-bottom: 7%;
+  }
+
+  .whats-new-banner-two-container h3 {
+      margin-bottom: 4%;
+      padding: 0 15vw;
+  }
+
+  .whats-new-container h3 {
+      font-family: HelveticaNeueW01-65Medi;
+      text-transform: uppercase;
+      font-size: 6vw;
+      line-height: 6.5vw;
+  }
+
+  .whats-new-banner-two-container p {
+      margin-bottom: 11%;
+      padding: 0 16vw;
+  }
+
+  .whats-new-banner-three-container img {
+      height: auto;
+      width: 60vw;
+      margin: 0 auto;
+      display: block;
+      margin-top: 23%;
+  }
+
+  .whats-new-banner-three-container h3 {
+      margin: 0 auto;
+      width: 69vw;
+      margin-bottom: 3vw;
+  }
+
+  .whats-new-banner-three-container p {
+      margin-bottom: 10%;
+      padding: 0 8vw;
+  }
+
+  .whats-new-banner-three-container button.check-it-out {
+      width: 95vw;
+      height: 14vw;
+      font-size: 4vw;
+      padding: 0;
+      margin: 0 auto;
+      margin-bottom: 4%;
+  }
+
+  .whats-new-banner-three-container button.download-now {
+      background-color: #fff;
+      border: 1px solid black;
+      color: #000;
+      padding: 0;
+      width: 95vw;
+      height: 14vw;
+      font-size: 4vw;
+      padding: 0;
+      margin: 0 auto;
+      margin-bottom: 10%;
+  }
+
+  .whats-new-banner-four-container img.icon {
+      display: inline-block;
+      margin-bottom: 13%;
+  }
+
+  ul.account-favorites li, ul.account-preferred li {
+      display: inline-block;
+      margin: 0 0;
+      width: 100%;
+      margin-top: 5vw;
+  }
+
+  ul.account-favorites img.mixer {
+      width: 30vw;
+  }
+
+  div.caption{
+    display: inline;
+  }
+
+  p.whats-new-bold{
+    font-weight: bold;
+  }
+
+  ul.account-preferred {
+      margin-top: -14%;
+  }
+
+  .whats-new-banner-four-container h3{
+      margin-bottom: 2%;
+  }
+
+  .create-an-account-text p.sign-in {
+    padding: 0 8vw;
+  }
+
+  .whats-new-banner-five-container span.exclusions {
+    font-size: 5vw;
+    margin-bottom: 11%;
+    display: block;
+  }
+}
